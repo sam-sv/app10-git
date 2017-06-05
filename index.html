@@ -1,0 +1,576 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Sexta Aplicacion</title>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tema-app10.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+<script type="text/javascript" src="engine2/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/aqui.jpg','imagenes/pueblo de atlixco.jpg','imagenes/viva.jpg','imagenes/atlixcáyotl1.jpg','imagenes/convento.jpg','imagenes/mec.jpg','imagenes/comida.jpg','imagenes/cerro.jpg','imagenes/palacio.jpg','imagenes/aguas2.jpg','imagenes/floresss.jpg')">
+
+<div data-role="page" id="Principal" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1> ATLIXCO </h1>
+<h3> Pueblo Magico </h3>
+ </div> <br> 
+ 
+  <div>
+ <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/atlixcomagico.jpg" alt="Atlixcomagico" title="Atlixcomagico" id="wows1_0"/></li>
+		<li><img src="data1/images/1.jpg" alt="1" title="1" id="wows1_1"/></li>
+		<li><img src="data1/images/2.jpg" alt="2" title="2" id="wows1_2"/></li>
+		<li><img src="data1/images/4.jpg" alt="4" title="4" id="wows1_3"/></li>
+		<li><img src="data1/images/5.jpg" alt="5" title="5" id="wows1_4"/></li>
+		<li><img src="data1/images/6.jpg" alt="6" title="6" id="wows1_5"/></li>
+		<li><img src="data1/images/7.jpg" alt="7" title="7" id="wows1_6"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/8.jpg" alt="http://wowslider.net/" title="8" id="wows1_7"/></a></li>
+		<li><img src="data1/images/carpetas.jpg" alt="carpetas" title="carpetas" id="wows1_8"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="Atlixcomagico"><span><img src="data1/tooltips/atlixcomagico.jpg" alt="Atlixcomagico"/>1</span></a>
+		<a href="#" title="1"><span><img src="data1/tooltips/1.jpg" alt="1"/>2</span></a>
+		<a href="#" title="2"><span><img src="data1/tooltips/2.jpg" alt="2"/>3</span></a>
+		<a href="#" title="4"><span><img src="data1/tooltips/4.jpg" alt="4"/>4</span></a>
+		<a href="#" title="5"><span><img src="data1/tooltips/5.jpg" alt="5"/>5</span></a>
+		<a href="#" title="6"><span><img src="data1/tooltips/6.jpg" alt="6"/>6</span></a>
+		<a href="#" title="7"><span><img src="data1/tooltips/7.jpg" alt="7"/>7</span></a>
+		<a href="#" title="8"><span><img src="data1/tooltips/8.jpg" alt="8"/>8</span></a>
+		<a href="#" title="carpetas"><span><img src="data1/tooltips/carpetas.jpg" alt="carpetas"/>9</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery slideshow</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>
+	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+</div>
+
+
+
+
+
+<div data-role="main" class="ui-content"> </div>
+  <div>
+     <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+        <li class="ui-first-child ui-last-child">
+        <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+          <h2> Atlixco de las Flores </h2>
+        </a>
+       </li>
+<br><br>
+    <li class="ui-first-child ui-last-child">
+       <a href ="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2> Festividades </h2>
+       </a>
+       </li>
+<br><br>
+    <li class="ui-first-child ui-last-child">
+       <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2> Gastronomia </h2>
+       </a>
+       </li>
+      
+<br><br>
+       <li class="ui-first-child ui-last-child">
+       <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2> Cerro de San Miguel </h2>
+       </a>
+       </li>
+<br><br>
+    <li class="ui-first-child ui-last-child">
+       <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2> Viveros Cabrera </h2>
+       </a>
+       </li>
+       
+<br><br>
+    <li class="ui-first-child ui-last-child">
+       <a href ="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2> Palacio Municipal </h2>
+       </a>
+       </li>
+       
+<br><br>
+    <li class="ui-first-child ui-last-child">
+       <a href ="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2> Ex-Convento del Carmen </h2>
+       </a>
+       </li>
+       
+<br><br>
+    <li class="ui-first-child ui-last-child">
+       <a href ="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2> Balnearios </h2>
+       </a>
+       </li>
+    </ul>       
+</div>
+ <br> <br> <br>
+
+  <div data-role="collapsible" data-content-theme="false">
+    <h1>  Autora </h1>
+    <center><p> Centro de Bachillerato Tecnologico Industrial y de Servicio No. 16 <br><br>
+    Solis Villegas Samantha <br><br>
+    <br>
+    4 Semestre <br><br>
+     Grupo H <br> </p>
+     <img src="imagenes/escul.jpg" whidth="86" height="86"></center>
+   </div>
+   
+<br> <br> <br>
+ 
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+<img src="res/android/mdpi.png" whidth="46" height="56">
+   </div>
+   <div>
+    <h4> Guia Turistica</h4>
+     <h4> Samantha Solis Villegas 4H </h4>
+  </div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1> Atlixco de las Flores</h1>
+  </div> 
+  <br>
+ 
+    <div data-role="content" align="center">
+    <img src="imagenes/pueblo-magico.png" width="300" height="246">
+<div> <br><br>
+  En nahuatl significa "Valle de Agua". <br>
+ Este municipio es favorecido por la gran cantidad de agua que llega desde el volcan Popocateplelt. <br> <br> <br> 
+  Población:125.000 (2008) <br>
+  Superficie:229,2 km² <br>
+  Presidente municipal:José Luis Galeazzi (2014-2018) <br>   <br>
+  Visita Nuestra Página: <a href="http://puebla.travel/es/atlixco"> Atlixco Pueblo Magico </a> <br> <br>  <br>
+      
+     <div data-role="collapsible" data-content-theme="false">
+     <br>
+       <h1> Ubicación </h1>
+Atlixco es un municipio que se localiza al suroeste de la Ciudad de Puebla.
+<br> <br>
+<img src="imagenes/mapa.png" width="230" height="288">
+<br> <br>
+
+<h3> Como llegar a Atlixco desde ... </h3>
+<div data-role="main" class="ui-content" align="center">
+<div style="width:40%">
+<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+<li class="ui-first-child ui-last-child">
+<a href="https://www.google.com.mx/maps/dir/Puebla/Atlixco,+Pue./@18.9807582,-98.387812,12z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x85cf8cb0ddc0a765:0xe25cae5bd60220ad!2m2!1d-98.2062013!2d19.0412894!1m5!1m1!1s0x85cfb3eee015f935:0x5c4b12a3f9f700e7!2m2!1d-98.4293891!2d18.9131227" data-role="button" id="beep">
+<h4> Puebla </h4>
+</a>
+</li> <br>
+<li class="ui-first-child ui-last-child">
+<a href="https://www.google.com.mx/maps/dir/M%C3%A9xico/Atlixco,+Pue./@19.3144785,-98.8487712,9.25z/data=!4m13!4m12!1m5!1m1!1s0x85ce0026db097507:0x54061076265ee841!2m2!1d-99.133208!2d19.4326077!1m5!1m1!1s0x85cfb3eee015f935:0x5c4b12a3f9f700e7!2m2!1d-98.4293891!2d18.9131227" data-role="button" id="beep">
+<h4> Mexico </h4>
+</a>
+</li> <br>
+</ul>
+</div>
+</div> 
+<br> <br> <br>
+   </div>
+     </div>  <br>
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image70','','imagenes/floresss.jpg',1)"><img src="imagenes/aguas.jpg" width="250" height="199" id="Image70"></a><br> 
+<br> <br>
+        <div data-role="footer" data-theme="a" data-position="fixed">
+        <div>
+<img src="res/android/mdpi.png" whidth="46" height="56">
+   </div>
+        <h4>Guia Turistica</h4>
+      </div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1> Festividades de Atlixco </h1>
+</div>
+<div data-role="content" align="center">
+
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image57','','imagenes/atlixcáyotl1.jpg',1)"><img src="imagenes/carpetas.jpg" width="550" height="309" id="Image57"></a>
+
+<div>
+  <div data-role="collapsible" data-content-theme="false">
+    <h1>  Atlixcáyotl </h1>
+<br> Es un festival cultural que se realiza en el cerro de San Miguel, en la parte conocida como Netotiloyan(Cerro de la danza), el último domingo de septiembre de cada año. El nombre de este festejo que se celebra en torno a la fiesta de San Miguel Arcángel es de origen náhuatl y quiere decir Gran Fiesta de Atlixco. Pero traducido por las raíces de la lengua náhuatl el sufijo "Yotl" más Atlixco se traduce como "Atlixquedad". <br> 
+Entre otras cosas, en el Huey Atlixcáyotl se elige a la Xochicíhuatl (Mujer Flor) y a sus Xochipilme (Florecitas), que presiden las celebraciones. No se trata de un concurso de belleza, sino de una elección que se realiza sobre el conocimiento demostrado de las costumbres de los pueblos del estado. Cada región envía una representante para la elección de la Xochicíhuatl. donde las personas van a ser cualquier cosa como celebrar o resar. <br> <br>
+<img src="imagenes/atlixcáyotl1.jpg" width="320" height="280">  
+   </div>
+      <br>  <img src="imagenes/atlixcáyotl.jpg" width="390" height="280"> 
+      
+      <br> <br> <br>
+      
+  <div data-role="collapsible" data-content-theme="false">
+   <h1> Villa Iluminada </h1>
+   <br> Heroica Atlixco también conocido como «Atlixco de las flores», es un municipio que se localiza al suroeste de la Ciudad de Puebla. Recibió su título de «Heroica»9 debido a la Batalla del 4 de mayo de 1862 que precedería a la Batalla de Puebla del 5 de mayo de 1862. <br> <br>
+      <img src="imagenes/villa5.jpg" width="323" height="230">
+      </div>
+  <img src="imagenes/villa1.jpg" width="290" height="180"> <br> <br> <br>
+      
+      <div data-role="collapsible" data-content-theme="false">
+    <h1>  Alfombras de Flores </h1>
+<br> Esta es una actividad que se realliza en el zocalo de Atlixco cada vez que se hacerca una festividad como lo puede ser: navidad, dia de muertos, semana santa, entre otros. <br>
+  <img src="imagenes/5.jpg" width="254" height="200">
+    </div>
+      <br>  <img src="imagenes/7.jpg" width="300" height="200"> 
+</div>
+</div>
+
+<div data-role="footer" data-theme="a" data-position="fixed">
+<div>
+<center><img src="res/android/mdpi.png" whidth="46" height="56">
+   </div>
+<h4>Guia Turistica</h4>
+</div>
+</div>
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1> Gastronomia </h1>
+</div>
+<br>
+<div data-role="content" align="top">
+<div> 
+<center> 
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image66','','imagenes/comida.jpg',1)"><img src="imagenes/cara.jpg" width="300" height="226" id="Image66"></a><br>
+ En este pintoresco pueblo puedes encontrar y disfrutar de diversas comidas como lo son: <br> <br> 
+
+<div data-role="collapsible" data-content-theme="false">
+   <h1> Cecina  </h1>
+   <br> Un platillo por el que después de probarlo querrás volver Atlixco, la tradicional cecina de Atlixco, elaborado por cecineros del municipio de manera artesanal este platillo es básico dentro de la cocina atlixquense, acompañado de sus guarniciones de queso, aguacate y nopales. <br> <br>
+  <img src="imagenes/cecina.jpg" width="230" height="162">
+      </div>
+</div>
+<br> <br>
+<div data-role="collapsible" data-content-theme="false">
+   <h1>  Enchiladas. </h1>
+   <br> Los rollitos que se forman uno tras otro para cubrirse de una delicada salsa. Rellenas de pollo, bañadas en salsa verde, roja o mole que se acompañan de lechuga, aguacate, crema, queso, rábano y cebolla, listos para degustarse calientitos y bien bañaditos. <br> <br>
+  <center><img src="imagenes/ENCHILADAS.jpg" width="280" height="267">
+    </div>    
+      <br> <br>
+      
+<div data-role="collapsible" data-content-theme="false">
+   <h1>  Barbacoa. </h1>
+   <br> El estilo de carne con un sabor inigualable que te hará chupar los dedos. <br>
+La carne de borrego hecha en barbacoa es uno de los estilos de popularidad en el centro del país. Elaborada dentro de la tierra con hojas de maguey alcanza su mejor punto en sabor; lo puedes preparar en taco o simplemente con una rica salsa y aguacate. No olvides el consomé que se produce al cocinar la barbacoa. <br> <br> 
+<center><img src="imagenes/barbacoa.jpg" width="243" height="225"> 
+  
+    </div>      
+</div>
+<br> <br>
+<div data-role="footer" data-theme="a" data-position="fixed">
+<div>
+<center><img src="res/android/mdpi.png" whidth="46" height="56">
+   </div>
+<h4>Guia Turistica</h4>
+</div>
+</div>
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1> Cerro de San Miguel </h1>
+</div> 
+ <p><br> 
+   <br> <center> El cerro ha sido testigo de toda la vida de Atlixco y sus habitantes. Es un cerro que encierra misterios, energías, guarda voces del tiempo, testigo de la transformación de la ciudad y su gente. Es un cerro que desde ahí cerca de 50 años se juntan las etnias de la región y del estado para bailarle a Quetzalcóatl y a Macuilxochitl en el Huey Atlixcáyotl, antiquísima fiesta de celebraciones mediante la música y el baile para dar de comer y agradar a los dioses antiguos y a los santos modernos que tienen como emblema de redención en Cristo.  <br> <br>
+   
+   <center>  
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image68','','imagenes/cerro.jpg',1)"><img src="imagenes/6.jpg" width="300" height="175" id="Image68"></a> <br> <br>
+   Si tienes ánimo aventurero te invitamos a subir al Cerro de San Miguel para que eches un vistazo de la ciudad desde sus miradores y si todavía te quedan un poco de fuerzas, que subas la escalinata hasta la Ermita dedicada al Arcángel San Miguel, que cuenta la historia, encerró al diablito que hacía de las suyas en los solares dentro del pozo que se encuentra ahí. </p>
+ <div data-role="content" align="center">
+  <div>
+  <p> Si quieres saber más te invitamos a que vallas y subas a este historico cerro o busques informacion de el en las siguientes pagina </p>
+  <div style="width:40%">
+<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+<li class="ui-first-child ui-last-child">
+<a href="http://puebla.travel/es/ver-hacer/sitios-de-interes/miradores/item/cerro-de-san-miguel" data-role="button" id="beep">
+<h4> Cerro de San Miguel </h4>
+</a>
+</li> <br>
+</ul>
+</div>
+</div>
+ <br> <br>
+ 
+<div data-role="footer" data-theme="a" data-position="fixed">
+<div>
+<img src="res/android/mdpi.png" whidth="46" height="56">
+   </div>
+<h4>Guia Turistica</h4>
+</div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a" >
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1> Cabrera </h1>
+</div>
+<center><img src="imagenes/mega.png" width="350" height="200">
+<div data-role="content" align="top">
+<br> <br> <center> Uno de los muchos atractivos turísticos que ofrece el municipio de Atlixco son los viveros de la colonia cabrera, mismos que se han encargado de preservar el nombre de “Atlixco de las Flores” esto por la producción de más de 120 mil plantas que se tiene.  <br><br>
+Son más de 100 los viveros que se encuentran en toda esta colonia que gracias al turista, así como a los amantes de las flores día con día se va posicionando en el mercado como lugar favorito para llevarse un recuerdo viviente de este Pueblo Mágico. <br> <br> 
+<center><img src="imagenes/flores.JPG" width="362" height="200"> <br> 
+<br>
+Quienes llegan por primera vez a Atlixco, no dudan en visitar los viveros mismos que guardan celosamente las miles y miles de variedades que ahí se producen y por mencionar algunas están los Ciprés, Clavellina, Crisantemo, Violeta persa, Gazania, Geranio, Azucena, Palo Brasil, Petunia, Rosas, Pensamiento, arrayán, dedo de niño, jacarandá, jazmín, margarita, mora, mosaico, lengua de pájaro, mariana y la lista es interminables, solo basta llegar a uno de estos viveros y preguntar por su planta favorita y sin duda alguna le mostraran las variedad que en estos viveros se producen. <br> <br>
+<h1> Como llegar a Cabrera </h1>
+<div style="width:40%">
+<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+<li class="ui-first-child ui-last-child">
+<a href="https://www.google.com.mx/maps/dir/Atlixco/Megaviveros+Atlixco,+Manuel+Gomez+Morin+%233101,+Cabrera,+74360+Atlixco,+Pue./@18.9171352,-98.4366347,15.5z/data=!4m13!4m12!1m5!1m1!1s0x85cfb3eee015f935:0x5c4b12a3f9f700e7!2m2!1d-98.4293891!2d18.9131227!1m5!1m1!1s0x85cfb48bbc817db9:0x5b6a5fe7361d279d!2m2!1d-98.4441133!2d18.9203665" data-role="button" id="beep">
+<h4> Cabrera </h4>
+</a>
+</li> <br>
+</ul>
+</div>
+</div>
+
+<div data-role="footer" data-theme="a" data-position="fixed">
+<div>
+<center><img src="res/android/mdpi.png" whidth="46" height="56">
+   </div>
+<h4>Guia Turistica</h4>
+</div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="a" >
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1> Palacio Municipal </h1>
+</div> <br> 
+<center>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image68','','imagenes/palacio.jpg',1)"><img src="imagenes/pala.jpg" width="275" height="183" id="Image2"></a>
+<div data-role="content" align="top">
+  <br> <br> <center> Construcción del siglo XVII-XIX que finalmente se inauguró el 1 de febrero de 1908. En su fachada tiene el escudo de armas de la Villa de Carrión fundada en 1579. <br><br>
+El edificio fue remodelado con motivo del 50 aniversario de la Revolución Mexicana, inaugurado por el Lic. Adolfo López Mateos presidente de la República Mexicana. <br> <br> 
+<center><img src="imagenes/pala.jpg" width="275" height="153"> <br> 
+<br>
+Ubicado cerca del zocalo de Atlixco esta abierto al publico para que disfruten de los bellos murales que fueron pintados dentro de el. </h1>
+<div style="width:50%">
+<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+<li class="ui-first-child ui-last-child">
+<a href="https://www.google.com.mx/maps/place/Ayuntamiento+Constitucional+De+Atlixco/@18.902944,-98.4429027,15z/data=!4m8!1m2!2m1!1satlixco+palacio+municipal!3m4!1s0x85cfb47b9ba25ebd:0x3d7882487a7e17a8!8m2!3d18.9091843!4d-98.4339733" data-role="button" id="beep">
+<h4> Palacio Municipal </h4>
+</a>
+</li> <br>
+</ul>
+</div>
+</div>
+
+<div data-role="footer" data-theme="a" data-position="fixed">
+<div>
+<img src="res/android/mdpi.png" whidth="46" height="56">
+   </div>
+<h4>Guia Turistica</h4>
+</div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="a" >
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1> Ex-Convento del Carmen </h1>
+</div> <br> 
+
+<center>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image58','','imagenes/convento.jpg',1)"><img src="imagenes/ex.jpg" width="250" height="200" id="Image58"></a>
+<div data-role="content" align="top">
+  Entrada Gratuita <br> 
+10 a 18 hrs (Cierra Lunes) <br> 
+4 Nte. No. 202, Atlixco <br>
+a una cuadra del Zócalo <br>
+<br> <br> <center> Calle 4 Nte. 204, Centro, 74200 Atlixco, Pue. <br>
+Construido entre 1600 y 1620 lo limita una enorme barda que abarca aproximadamente dos manzanas y es un claro ejemplo del estilo barroco de la época. <br><br>
+ Cuando fueron exclaustrados los religiosos en 1853 el lugar fue convertido en rastro, luego oficinas gubernamentales, escuela (cuando tiran su torre), cárcel y cuartel para tropas federales. Ahora es conocido como el Centro Cultural del Carmen y alberga un pequeño museo arqueológico.. <br> <br> 
+<center><img src="imagenes/convento.jpg" width="325" height="183"> <br> 
+<br>
+  
+<div style="width:50%">
+<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+<li class="ui-first-child ui-last-child">
+<a href="https://www.google.com.mx/maps/place/Ex-Convento+De+Nuestra+Se%C3%B1ora+Del+Carmen/@18.930069,-98.3944035,12.5z/data=!4m8!1m2!2m1!1satlixco+ex+convento+del+carmen!3m4!1s0x85cfb47bba76d7c5:0xf52be33b1cb2d9dc!8m2!3d18.9090401!4d-98.4328357" data-role="button" id="beep">
+<h4> Ex-Convento del Carmen </h4>
+</a>
+</li> <br>
+</ul>
+</div>
+</div>
+
+<div data-role="footer" data-theme="a" data-position="fixed">
+<div>
+<img src="res/android/mdpi.png" whidth="46" height="56">
+   </div>
+<h4>Guia Turistica</h4>
+</div>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="a" >
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1> Balnearios</h1>
+</div>
+
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="data2/images/pueblomagico.png" alt="pueblo-magico" title="pueblo-magico" id="wows2_0"/></li>
+		<li><img src="data2/images/agua.jpg" alt="agua" title="agua" id="wows2_1"/></li>
+		<li><img src="data2/images/4.jpg" alt="4" title="4" id="wows2_2"/></li>
+		<li><img src="data2/images/balneario.jpg" alt="balneario" title="balneario" id="wows2_3"/></li>
+		<li><img src="data2/images/mec.jpg" alt="mec" title="mec" id="wows2_4"/></li>
+		<li><img src="data2/images/metepec.jpg" alt="metepec" title="metepec" id="wows2_5"/></li>
+		<li><a href="http://wowslider.net"><img src="data2/images/sol.jpg" alt="jquery slideshow" title="sol" id="wows2_6"/></a></li>
+		<li><img src="data2/images/villasol.jpg" alt="villasol" title="villasol" id="wows2_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="pueblo-magico"><span><img src="data2/tooltips/pueblomagico.png" alt="pueblo-magico"/>1</span></a>
+		<a href="#" title="agua"><span><img src="data2/tooltips/agua.jpg" alt="agua"/>2</span></a>
+		<a href="#" title="4"><span><img src="data2/tooltips/4.jpg" alt="4"/>3</span></a>
+		<a href="#" title="balneario"><span><img src="data2/tooltips/balneario.jpg" alt="balneario"/>4</span></a>
+		<a href="#" title="mec"><span><img src="data2/tooltips/mec.jpg" alt="mec"/>5</span></a>
+		<a href="#" title="metepec"><span><img src="data2/tooltips/metepec.jpg" alt="metepec"/>6</span></a>
+		<a href="#" title="sol"><span><img src="data2/tooltips/sol.jpg" alt="sol"/>7</span></a>
+		<a href="#" title="villasol"><span><img src="data2/tooltips/villasol.jpg" alt="villasol"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">http://wowslider.net/</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+
+
+<div data-role="content" align="top">
+  <br> <br> <center> En este pueblo tambien podras disfrutar de un rato refrescante con tu familia y amigos en los balnearios que tenmos aqui. <br><br>
+ Algunos de los balnearios que te podemos sugerir son los sigientes: <br> <br>
+ 
+ <div data-role="collapsible" data-content-theme="false">
+   <h1>  Metepec </h1>
+   <br> Bello Centro Vacacional, localizado en el Estado de Puebla, inmerso en un bosque que enriquece el espíritu con su apacible atmósfera. En Atlixco-Metepec usted disfrutará de actividades recreativas como la pesca deportiva, rodeado de un hermoso y verde paisaje con temperatura templada en un ambiente relajante, donde podrá admirar al legendario volcán Popocatépetl. Metepec es el Centro Vacacional que le brinda la paz y tranquilidad que siempre ha buscado para toda su familia. <br> 
+   Av De La Compañía S/N, Metepec Centro, 74360 Metepec, Pue. <br>
+   Visita la pagina <a href="http://centrosvacacionales.imss.gob.mx/Paginas/pagina_metepec_informacion.html"> Metepec </a><br> 
+
+<div style="width:40%">
+<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+<li class="ui-first-child ui-last-child">
+<a href="https://www.google.com.mx/maps/dir/Atlixco/Centro+Vacacional+del+IMSS,+Metepec,+Av+De+La+Compa%C3%B1%C3%ADa+S%2FN,+Metepec+Centro,+74360+Metepec,+Pue./@18.9246352,-98.44961,14z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x85cfb3eee015f935:0x5c4b12a3f9f700e7!2m2!1d-98.4293891!2d18.9131227!1m5!1m1!1s0x85cfb4da7e98ff27:0x75022263df88382f!2m2!1d-98.473081!2d18.9379195" data-role="button" id="beep">
+<h4> Como llegar </h4>
+</a>
+</li> <br>
+</ul>
+</div>
+</div> 
+  </div>      
+  <center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image57','','imagenes/mec.jpg',1)"><img src="imagenes/metepec.jpg" width="398" height="250" id="Image"></a>
+  <br> <br>
+  
+<div data-role="collapsible" data-content-theme="false">
+  <h1>  Villa del Sol </h1>
+   <br> <center> DIRECCIÓN: 2 norte 1306 <br>
+P-rosales@hotmail.com <br>
+TELÉFONO: (01-244)4460007 4458760″<br>
+CAPACIDAD: 600 personas <br>
+COSTOS: ADULTOS $60 Y NIÑOS $40 <br>
+OTROS SERVICIOS: Cafetería <br> 
+<br> Visita nuestra pagina <a href="https://es.foursquare.com/v/parque-acu%C3%A1tico-y-sal%C3%B3n-social--villa-del-sol/4ffc4c3ee4b0ca0ee61a2524"> Villa del Sol </a>
+<center>
+ <center><img src="imagenes/villasol.jpg" width="450" height="260"> 
+
+<div style="width:40%">
+<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+<li class="ui-first-child ui-last-child">
+<a href="https://www.google.com.mx/maps/dir/Atlixco/Sal%C3%B3n+Social+Y+Parque+Acu%C3%A1tico+Villa+Del+Sol,+Calle+2+Norte+1603+A,+Benito+Ju%C3%A1rez,+74220+Atlixco,+Pue./@18.9146498,-98.4320238,17z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x85cfb3eee015f935:0x5c4b12a3f9f700e7!2m2!1d-98.4293891!2d18.9131227!1m5!1m1!1s0x85cfb4657681f17d:0xa381f86b18797447!2m2!1d-98.4307134!2d18.916757" data-role="button" id="beep">
+<h4> Como llegar </h4>
+</a>
+</li> <br>
+</ul>
+</div>
+</div>     
+ <center><img src="imagenes/sol.jpg" width="348" height="236">
+<br> 
+<br>
+   <div data-role="collapsible" data-content-theme="false">
+   <h1>  Agua Verde </h1>
+   <br> <center> Diversión, tranquilidad y seguridad.
+Cuentan con cancha de tenis, volibol, frontón de mano, cancha de Squash, juegos infantiles, área de campamento, alberca con chapoteadero, palapa, etc.
+<br> 
+Calle 3 Nte. 817, Centro, 74200 Atlixco, Pue. <br> <br>
+ <br> 
+ Visita la pagina <a href="http://puebla.travel/es/ver-hacer/espacios-de-ocio/item/club-deportivo-agua-verde"> Club Agua Verde </a><br>
+
+<center><img src="imagenes/agua.jpg" width="354" height="238"> 
+
+<div style="width:40%">
+<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+<li class="ui-first-child ui-last-child">
+<a href="https://www.google.com.mx/maps/dir/Atlixco/Club+Campestre+Agua+Verde+S.A+de+C.V,+Calle+3+Nte.+817,+Centro,+74200+Atlixco,+Pue./@18.9133588,-98.4326149,18z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x85cfb3eee015f935:0x5c4b12a3f9f700e7!2m2!1d-98.4293891!2d18.9131227!1m5!1m1!1s0x85cfb464b9938329:0x53cbb03577fcc4ea!2m2!1d-98.433812!2d18.913902" data-role="button" id="beep">
+<h4> Como llegar </h4>
+</a>
+</li> <br>
+</ul>
+</div>
+</div> 
+     <center><img src="imagenes/verde.txt" width="480" height="319"> 
+
+<br> <br> <br>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image69','','imagenes/aguas2.jpg',1)"><img src="imagenes/aguas.jpg" width="200" height="199" id="Image69"></a><br> 
+<br> <br>
+
+<div data-role="footer" data-theme="a" data-position="fixed">
+<div>
+<img src="res/android/mdpi.png" whidth="46" height="56">
+   </div>
+<h4>Guia Turistica</h4>
+</div>
+</div>
+</div>
+
+
+</body>
+</html>
