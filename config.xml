@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <widget xmlns ="http://www.w3.org/ns/widgets"
 xmlns:gap="http://phonegap.com/ns/1.0"
-id ="com.phonegap.example2"
+id ="com.phonegap.example10"
 version="1.0.0">
 
-<name> app6 batalla 5 de mayo </name>
+<name> app10 Guia Turistica </name>
 
 <description>
-Aplicacion que muestra la informacion de la batlla de 5 de mayo
+Aplicacion que muestra la informacion de Atlixco
 </description>
 
 <author href="https://build.phonegap.com" email="samasv1402@gmail.com">
